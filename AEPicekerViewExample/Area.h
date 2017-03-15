@@ -10,4 +10,6 @@
 
 @interface Area : NSObject
 
+@property (nonatomic, copy, readwrite, nullable) NSString *areaName;
+
 @end

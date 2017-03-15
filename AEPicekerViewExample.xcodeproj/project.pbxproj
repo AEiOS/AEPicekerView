@@ -15,6 +15,14 @@
 		5FE9B3EC1E77998C00D62867 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FE9B3EA1E77998C00D62867 /* LaunchScreen.storyboard */; };
 		5FE9B3F71E77998C00D62867 /* AEPicekerViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B3F61E77998C00D62867 /* AEPicekerViewExampleTests.m */; };
 		5FE9B4021E77998C00D62867 /* AEPicekerViewExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B4011E77998C00D62867 /* AEPicekerViewExampleUITests.m */; };
+		5FE9B4121E7799C900D62867 /* AEPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B4111E7799C900D62867 /* AEPickerView.m */; };
+		5FE9B4151E7799DF00D62867 /* AEPickerItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B4141E7799DF00D62867 /* AEPickerItem.m */; };
+		5FE9B4181E77CEA600D62867 /* AEPickerAccessoryBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B4171E77CEA600D62867 /* AEPickerAccessoryBar.m */; };
+		5FE9B41B1E77F8A300D62867 /* Area.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B41A1E77F8A300D62867 /* Area.m */; };
+		5FE9B41E1E78C02B00D62867 /* AEPickerBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B41D1E78C02B00D62867 /* AEPickerBoard.m */; };
+		5FE9B4211E78CCFC00D62867 /* ViewController+AEPickerBoardExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B4201E78CCFC00D62867 /* ViewController+AEPickerBoardExample.m */; };
+		5FE9B4241E78CE1300D62867 /* ViewController+AEPickerViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B4231E78CE1300D62867 /* ViewController+AEPickerViewExample.m */; };
+		5FE9B4271E78CE2E00D62867 /* ViewController+CustomObjectExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FE9B4261E78CE2E00D62867 /* ViewController+CustomObjectExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		5FE9B3FD1E77998C00D62867 /* AEPicekerViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AEPicekerViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FE9B4011E77998C00D62867 /* AEPicekerViewExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AEPicekerViewExampleUITests.m; sourceTree = "<group>"; };
 		5FE9B4031E77998C00D62867 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FE9B4101E7799C900D62867 /* AEPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPickerView.h; sourceTree = "<group>"; };
+		5FE9B4111E7799C900D62867 /* AEPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEPickerView.m; sourceTree = "<group>"; };
+		5FE9B4131E7799DF00D62867 /* AEPickerItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPickerItem.h; sourceTree = "<group>"; };
+		5FE9B4141E7799DF00D62867 /* AEPickerItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEPickerItem.m; sourceTree = "<group>"; };
+		5FE9B4161E77CEA600D62867 /* AEPickerAccessoryBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPickerAccessoryBar.h; sourceTree = "<group>"; };
+		5FE9B4171E77CEA600D62867 /* AEPickerAccessoryBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEPickerAccessoryBar.m; sourceTree = "<group>"; };
+		5FE9B4191E77F8A300D62867 /* Area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Area.h; sourceTree = "<group>"; };
+		5FE9B41A1E77F8A300D62867 /* Area.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Area.m; sourceTree = "<group>"; };
+		5FE9B41C1E78C02B00D62867 /* AEPickerBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEPickerBoard.h; sourceTree = "<group>"; };
+		5FE9B41D1E78C02B00D62867 /* AEPickerBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AEPickerBoard.m; sourceTree = "<group>"; };
+		5FE9B41F1E78CCFC00D62867 /* ViewController+AEPickerBoardExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+AEPickerBoardExample.h"; sourceTree = "<group>"; };
+		5FE9B4201E78CCFC00D62867 /* ViewController+AEPickerBoardExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+AEPickerBoardExample.m"; sourceTree = "<group>"; };
+		5FE9B4221E78CE1300D62867 /* ViewController+AEPickerViewExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+AEPickerViewExample.h"; sourceTree = "<group>"; };
+		5FE9B4231E78CE1300D62867 /* ViewController+AEPickerViewExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+AEPickerViewExample.m"; sourceTree = "<group>"; };
+		5FE9B4251E78CE2E00D62867 /* ViewController+CustomObjectExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+CustomObjectExample.h"; sourceTree = "<group>"; };
+		5FE9B4261E78CE2E00D62867 /* ViewController+CustomObjectExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+CustomObjectExample.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +105,7 @@
 		5FE9B3D01E77998C00D62867 = {
 			isa = PBXGroup;
 			children = (
+				5FE9B40F1E7799B700D62867 /* AEPicekerView */,
 				5FE9B3DB1E77998C00D62867 /* AEPicekerViewExample */,
 				5FE9B3F51E77998C00D62867 /* AEPicekerViewExampleTests */,
 				5FE9B4001E77998C00D62867 /* AEPicekerViewExampleUITests */,
@@ -101,10 +126,18 @@
 		5FE9B3DB1E77998C00D62867 /* AEPicekerViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				5FE9B4191E77F8A300D62867 /* Area.h */,
+				5FE9B41A1E77F8A300D62867 /* Area.m */,
 				5FE9B3DF1E77998C00D62867 /* AppDelegate.h */,
 				5FE9B3E01E77998C00D62867 /* AppDelegate.m */,
 				5FE9B3E21E77998C00D62867 /* ViewController.h */,
 				5FE9B3E31E77998C00D62867 /* ViewController.m */,
+				5FE9B4251E78CE2E00D62867 /* ViewController+CustomObjectExample.h */,
+				5FE9B4261E78CE2E00D62867 /* ViewController+CustomObjectExample.m */,
+				5FE9B4221E78CE1300D62867 /* ViewController+AEPickerViewExample.h */,
+				5FE9B4231E78CE1300D62867 /* ViewController+AEPickerViewExample.m */,
+				5FE9B41F1E78CCFC00D62867 /* ViewController+AEPickerBoardExample.h */,
+				5FE9B4201E78CCFC00D62867 /* ViewController+AEPickerBoardExample.m */,
 				5FE9B3E51E77998C00D62867 /* Main.storyboard */,
 				5FE9B3E81E77998C00D62867 /* Assets.xcassets */,
 				5FE9B3EA1E77998C00D62867 /* LaunchScreen.storyboard */,
@@ -138,6 +171,21 @@
 				5FE9B4031E77998C00D62867 /* Info.plist */,
 			);
 			path = AEPicekerViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		5FE9B40F1E7799B700D62867 /* AEPicekerView */ = {
+			isa = PBXGroup;
+			children = (
+				5FE9B4101E7799C900D62867 /* AEPickerView.h */,
+				5FE9B4111E7799C900D62867 /* AEPickerView.m */,
+				5FE9B4131E7799DF00D62867 /* AEPickerItem.h */,
+				5FE9B4141E7799DF00D62867 /* AEPickerItem.m */,
+				5FE9B4161E77CEA600D62867 /* AEPickerAccessoryBar.h */,
+				5FE9B4171E77CEA600D62867 /* AEPickerAccessoryBar.m */,
+				5FE9B41C1E78C02B00D62867 /* AEPickerBoard.h */,
+				5FE9B41D1E78C02B00D62867 /* AEPickerBoard.m */,
+			);
+			path = AEPicekerView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FE9B4241E78CE1300D62867 /* ViewController+AEPickerViewExample.m in Sources */,
+				5FE9B41B1E77F8A300D62867 /* Area.m in Sources */,
+				5FE9B4211E78CCFC00D62867 /* ViewController+AEPickerBoardExample.m in Sources */,
+				5FE9B4151E7799DF00D62867 /* AEPickerItem.m in Sources */,
+				5FE9B4121E7799C900D62867 /* AEPickerView.m in Sources */,
+				5FE9B4181E77CEA600D62867 /* AEPickerAccessoryBar.m in Sources */,
 				5FE9B3E41E77998C00D62867 /* ViewController.m in Sources */,
 				5FE9B3E11E77998C00D62867 /* AppDelegate.m in Sources */,
+				5FE9B41E1E78C02B00D62867 /* AEPickerBoard.m in Sources */,
+				5FE9B4271E78CE2E00D62867 /* ViewController+CustomObjectExample.m in Sources */,
 				5FE9B3DE1E77998C00D62867 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,6 +563,7 @@
 				5FE9B4081E77998C00D62867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE9B4091E77998C00D62867 /* Build configuration list for PBXNativeTarget "AEPicekerViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +572,7 @@
 				5FE9B40B1E77998C00D62867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FE9B40C1E77998C00D62867 /* Build configuration list for PBXNativeTarget "AEPicekerViewExampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +581,7 @@
 				5FE9B40E1E77998C00D62867 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
