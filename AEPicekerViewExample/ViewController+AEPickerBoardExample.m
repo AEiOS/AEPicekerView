@@ -21,6 +21,10 @@
         typeof(self) weakSelf = self;
         [_weightPickerBoard setConfirmButtonDidClickedAction:^(AEPickerBoard * _Nonnull pickerBoard, UIButton * _Nonnull confirmButton) {
             weakSelf.weightTextField.text = [pickerBoard.item ae_pickerText];
+            [weakSelf.view endEditing:YES];
+        }];
+        [_weightPickerBoard setCancelButtonDidClickedAction:^(AEPickerBoard * _Nonnull pickerBoard, UIButton * _Nonnull confirmButton) {
+            [weakSelf.view endEditing:YES];
         }];
     }
     

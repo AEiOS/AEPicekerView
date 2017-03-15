@@ -171,8 +171,6 @@
     if (self.confirmButtonDidClickedAction != nil) {
         self.confirmButtonDidClickedAction(self, button);
     }
-    
-    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
 
 - (void)accessoryBarCancelButtonDidClicked:(UIButton *)button
@@ -181,8 +179,6 @@
     if (self.cancelButtonDidClickedAction != nil) {
         self.cancelButtonDidClickedAction(self, button);
     }
-    
-    [[[UIApplication sharedApplication] keyWindow] endEditing:YES];
 }
 
 
