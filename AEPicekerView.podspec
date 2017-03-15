@@ -8,6 +8,6 @@ d::Spec.new do |s|
     s.authors      = {'' => ''}
     s.platform     = :ios, '6.0'
     s.source       = {:git => 'https://github.com/AEiOS/AEPicekerView.git', :tag => s.version}
-    s.source_files = 'AEPicekerView/AEPicekerView/**/*.{h,m}'
+    s.source_files = 'AEPicekerView/**/*.{h,m}'
     s.requires_arc = true
 end
