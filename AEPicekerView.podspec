@@ -6,7 +6,7 @@ d::Spec.new do |s|
     s.homepage     = 'https://github.com/AEiOS/AEPicekerView'
     s.license      = 'MIT'
     s.authors      = {'' => ''}
-    s.platform     = :ios, '6.0'
+    s.platform     = :ios, '7.0'
     s.source       = {:git => 'https://github.com/AEiOS/AEPicekerView.git', :tag => s.version}
     s.source_files = 'AEPicekerView/**/*.{h,m}'
     s.requires_arc = true
